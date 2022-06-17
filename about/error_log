@@ -1,0 +1,4 @@
+[17-Jun-2022 11:50:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function headers() in /home/webswptt/public_html/about/index.php:131
+Stack trace:
+#0 {main}
+  thrown in /home/webswptt/public_html/about/index.php on line 131
