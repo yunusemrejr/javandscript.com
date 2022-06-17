@@ -1,0 +1,169 @@
+* {
+    font-family:arial;
+}
+
+#mainLogo{
+    
+    width:55%;
+     margin:auto;
+     display:block;
+     border:0px solid black;
+     border-radius:5px;
+     animation: logoLight 2s infinite;
+    
+}
+
+@keyframes logoLight {
+    
+    0% {box-shadow: 0px 0px 145px #fff;}
+    20% {box-shadow: 0px 0px 130px #fff;}
+    40% {box-shadow: 0px 0px 125px #fff;}
+    60% {box-shadow: 0px 0px 68px #fff;}
+    80% {box-shadow: 0px 0px 30px #fff;}
+    100% {box-shadow: 0px 0px 90px #fff;}
+
+}
+
+#navbar{
+    
+    width:95%;
+    background-color:white;
+    display:block;
+    margin:auto;
+    border:5px solid #8892BF;
+    border-radius:10px;
+  background: linear-gradient(135deg, white 60%, lightgrey);
+
+    
+}
+
+ 
+.navbarButton{
+    
+    padding:5px;
+    margin:30px;
+    text-align:center;
+     justify-content:center;
+     text-decoration:none;
+     font-size:20px;
+     font-weight:bold;
+     color:#2B3879;
+ }
+ 
+ 
+
+.navbarButton:hover{
+     color:#F89820;
+}
+
+body{
+    background: linear-gradient(100deg, #2B3879 20% ,#F89820); background-repeat: no-repeat;
+  background-size: contain;
+    
+}
+
+.iconsOfNav{
+    width:30px;
+}
+
+
+@media only screen and (max-width: 1300px) {
+  .iconsOfNav {
+      display:none;
+      
+  }
+  
+  
+  .navbarButton{
+           margin:10px;
+display: inline-block;
+  }
+  
+  #favLoder{
+      width:100%;
+      position:absolute;
+  }
+    
+}
+
+
+  
+   #favLoder{
+       width:10%; 
+ 
+   padding-top:200px;
+   padding-bottom:500px;
+  transform: translate(-50%, -50%);
+  animation:shakeIcon 2s infinite;
+   }
+   
+   @keyframes shakeIcon{
+       0% { transform: rotate(20deg);}
+       50% { transform: rotate(-20deg);}
+       100%{ transform: rotate(20deg);}
+   }
+   
+   
+#afterNavbar{
+    
+    padding:30px;
+      border:1px solid lightgrey;
+      background-color:#ffff;
+    
+}
+
+
+#footer {
+      padding:10px;
+      border:1px solid lightgrey;
+      background:linear-gradient(#2B3879,#7880aa);
+      border-radius:5px;
+      color:white;
+      
+
+}
+
+#footerYEVLink{
+    
+    text-decoration:none;
+    color:#f89820;
+    
+}
+
+
+#horizontalAd1 {
+    justify-content:middle;
+    text-align:center;
+    margin:auto;
+    display:block;
+}
+
+#horizontalAd2 {
+        justify-content:middle;
+    text-align:center;
+    margin:auto;
+    display:block;
+}
+
+ @media only screen and (max-width: 1300px) {
+   #horizontalAd1{
+            display:none;
+
+  }
+  #horizontalAd2{
+           display:none;
+ 
+  }
+ }
+ 
+ #computerCodeImg{
+     width:30%;
+     border: 0px solid white;
+     border-radius:10px;
+ }
+ 
+ #welcomeTitle {
+     text-shadow: 0px 5px 30px #2B3879;
+        -webkit-text-stroke: 1px orange;
+
+ }
