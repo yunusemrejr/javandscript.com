@@ -161,3 +161,9 @@ display: inline-block;
      border: 0px solid white;
      border-radius:10px;
  }
+ 
+ #welcomeTitle {
+     text-shadow: 0px 5px 30px #2B3879;
+        -webkit-text-stroke: 1px orange;
+
+ }
