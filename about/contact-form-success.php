@@ -1,0 +1,5 @@
+<?php
+
+echo "YOUR MESSAGE HAS BEEN SUCCESSFULLY SENT!";
+
+?>
