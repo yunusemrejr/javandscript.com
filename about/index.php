@@ -14,7 +14,7 @@ $email = $_POST['email'];
 $subject ="URLATLAS.org FORM MESSAGE";
 $message = $_POST['message'];
 
-$to = "yunusemrevurgun@hotmail.com";
+$to = "xxxxxx@xxxxx.com";
 $body = "";
 
 $body .= "From: ".$name."\r\n";
